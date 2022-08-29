@@ -36,7 +36,7 @@ echo "Install yarn"
 npm install -g yarn
 
 echo "CD into docusaurus directory"
-cd lib/docusaurus
+cd "lib/docusaurus"
 
 echo "Install dependencies"
 yarn install
