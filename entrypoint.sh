@@ -40,7 +40,7 @@ npm install -g yarn
 
 echo "Install dependencies"
 #yarn install
-yarn --cwd ./lib/docusaurus/install
+yarn --cwd ./lib/docusaurus/ install
 
 echo "Run yarn build"
 #yarn run build
