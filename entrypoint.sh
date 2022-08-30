@@ -35,8 +35,8 @@ aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}" > ~/.aws/credentials
 echo "Install yarn"
 npm install -g yarn
 
-#echo "CD into docusaurus directory"
-#cd "lib/docusaurus"
+echo "check directory"
+ls -l
 
 echo "Install dependencies"
 yarn install
