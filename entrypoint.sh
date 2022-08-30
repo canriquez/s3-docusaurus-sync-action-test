@@ -37,6 +37,9 @@ npm install -g yarn
 
 echo "check directory"
 ls -l
+cd lib
+ls -l
+cd docusaurus
 
 echo "Install dependencies"
 yarn install
